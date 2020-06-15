@@ -1,0 +1,294 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/es\/node\/20?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/habilidades"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/habilidades\/revision_uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/habilidades\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/habilidades\/field_habilidad": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "d64c1117-76a9-4965-92ef-cf5baa53d7bb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es",
+            "lang": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "habilidades"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-06-14T18:33:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/habilidades\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "26df5462-8300-4f10-9a6c-7a1158d29622"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/habilidades\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "26df5462-8300-4f10-9a6c-7a1158d29622"
+                    }
+                ],
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/habilidades\/field_habilidad": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/habilidades"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d414d325-5811-436f-b1fc-68d26bf6af25"
+                    }
+                ],
+                "target_revision_id": "17"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/habilidades"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cbcbf737-1524-43a5-93fe-76ac15afb324"
+                    }
+                ],
+                "target_revision_id": "18"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/habilidades"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "41258017-2060-41a4-872f-1d038f0c39ce"
+                    }
+                ],
+                "target_revision_id": "19"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/habilidades"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "63a7500c-9b08-4f7f-b6c3-daa250bba04f"
+                    }
+                ],
+                "target_revision_id": "20"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/habilidades"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "efe538b0-d452-4449-ac09-3669b061ca14"
+                    }
+                ],
+                "target_revision_id": "21"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/habilidades"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "82ccd82a-6b3e-42ea-b741-1b079f7122e7"
+                    }
+                ],
+                "target_revision_id": "22"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/habilidades"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e9ca07e3-7e8b-455b-b99b-07e6c26756cc"
+                    }
+                ],
+                "target_revision_id": "23"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/habilidades"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f15cafc1-b219-42c2-9d61-5e098d715dd9"
+                    }
+                ],
+                "target_revision_id": "24"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "title": [
+        {
+            "value": "Utilizaci\u00f3n de:",
+            "lang": "es"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-14T18:32:57+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-06-14T18:34:46+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "es"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "es"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "es",
+            "lang": "es"
+        }
+    ]
+}

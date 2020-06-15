@@ -1,0 +1,165 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/es\/node\/6?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/curso"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/revision_uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/field_matricula": [
+            {
+                "href": "http:\/\/default\/es\/node\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "54b2dc39-e3b1-42be-8c6b-dfe217768d14"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es",
+            "lang": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "curso"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-05-08T17:51:41+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "26df5462-8300-4f10-9a6c-7a1158d29622"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "26df5462-8300-4f10-9a6c-7a1158d29622"
+                    }
+                ],
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/field_matricula": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/es\/node\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/carrera"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1bbd33bd-0c33-44f5-840e-bafa41be61b2"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "title": [
+        {
+            "value": "Programaci\u00f3n en drupal",
+            "lang": "es"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-08T17:51:41+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-08T17:51:41+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "es"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "es",
+            "lang": "es"
+        }
+    ],
+    "field_c": [
+        {
+            "value": "TM-7101"
+        }
+    ]
+}

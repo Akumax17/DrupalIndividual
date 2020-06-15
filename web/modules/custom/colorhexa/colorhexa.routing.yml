@@ -1,0 +1,15 @@
+#  Se configuran las rutas de nuestro modulo
+colorhexa.generate:
+    path: "/colorhexa/generate/{color}"
+    defaults:
+        _controller: '\Drupal\colorhexa\Controller\ColorhexaController::generate'
+    requirements:
+        _permission: "Color Hexa"
+
+colorhexa.form:
+    path: "/admin/config/development/colorhexa"
+    defaults:
+        _form: '\Drupal\colorhexa\Form\ColorhexaForm'
+        _title: "Color Hexa settings"
+    requirements:
+        _permission: "administer site configuration"

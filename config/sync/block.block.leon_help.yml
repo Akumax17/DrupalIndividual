@@ -1,0 +1,22 @@
+uuid: a6b8e916-10aa-4435-a774-0c3d24a59db2
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - leon
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: leon_help
+theme: leon
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,78 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/habilidades"
+        }
+    },
+    "uuid": [
+        {
+            "value": "cbcbf737-1524-43a5-93fe-76ac15afb324"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es",
+            "lang": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "habilidades"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-14T18:33:14+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "20"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_habilidad"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "field_descripcion": [
+        {
+            "value": "Illustrator",
+            "format": "basic_html",
+            "processed": "Illustrator"
+        }
+    ]
+}

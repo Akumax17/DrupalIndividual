@@ -1,0 +1,5 @@
+colorhexa.form:
+    title: "Hexa color settings"
+    description: "Configure settings for the Hexa Color module."
+    route_name: colorhexa.form
+    parent: "system.admin_config_development"

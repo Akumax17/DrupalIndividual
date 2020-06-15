@@ -1,0 +1,11 @@
+uuid: 7ede6a56-e8a6-4765-9c0f-952f1c55ce53
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.habilidades
+id: node.habilidades
+target_entity_type_id: node
+target_bundle: habilidades
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,21 @@
+uuid: 07ad4bf2-fe26-4bf3-806c-4f981f3bde25
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_empresa
+    - paragraphs.paragraphs_type.experiencia
+  module:
+    - text
+id: paragraph.experiencia.field_empresa
+field_name: field_empresa
+entity_type: paragraph
+bundle: experiencia
+label: Empresa
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

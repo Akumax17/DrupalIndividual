@@ -1,0 +1,6 @@
+name: "Hexa color generator"
+type: module
+description: "This module lets you use a hexadecimal color as a widget"
+core: 8.x
+package: "Custom"
+configure: hexa_gen.form

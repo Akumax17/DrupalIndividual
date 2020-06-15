@@ -1,0 +1,10 @@
+uuid: d6af897f-3e96-4f5c-8783-db20e3404a7f
+langcode: es
+status: true
+dependencies: {  }
+id: experiencia
+label: Experiencia
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

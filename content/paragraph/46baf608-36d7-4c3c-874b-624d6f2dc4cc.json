@@ -1,0 +1,88 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/estudios"
+        }
+    },
+    "uuid": [
+        {
+            "value": "46baf608-36d7-4c3c-874b-624d6f2dc4cc"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es",
+            "lang": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "estudios"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-14T01:13:52+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "8"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_estudios"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "field_desdees": [
+        {
+            "value": "1999-01-01"
+        }
+    ],
+    "field_hastaes": [
+        {
+            "value": "2005-12-31"
+        }
+    ],
+    "field_nombren": [
+        {
+            "value": "Escuela Rafael Moya Murillo",
+            "format": "basic_html",
+            "processed": "Escuela Rafael Moya Murillo"
+        }
+    ]
+}

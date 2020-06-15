@@ -1,0 +1,17 @@
+uuid: d8de97a3-2807-41e4-bbc2-927750d70b2f
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Trabajos
+type: trabajos
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

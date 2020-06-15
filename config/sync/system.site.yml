@@ -1,0 +1,15 @@
+uuid: 95f1dfa2-0405-4a7a-9eaa-c4ed8d4c62e3
+name: 'Max L. Chacón'
+mail: maxchacon@icloud.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: es
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+mail_notification: ''

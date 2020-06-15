@@ -1,0 +1,67 @@
+uuid: c2ff5363-f4eb-47eb-8f38-0f272160a0e0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.personal.field_estudios
+    - field.field.node.personal.field_experiencia
+    - field.field.node.personal.field_lenguajes
+    - field.field.node.personal.field_localidad_
+    - field.field.node.personal.field_nacimiento
+    - node.type.personal
+  module:
+    - datetime
+    - entity_reference_revisions
+    - text
+    - user
+id: node.personal.default
+targetEntityType: node
+bundle: personal
+mode: default
+content:
+  field_estudios:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_experiencia:
+    type: entity_reference_revisions_entity_view
+    weight: 4
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_lenguajes:
+    type: entity_reference_revisions_entity_view
+    weight: 3
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_localidad_:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_nacimiento:
+    weight: 1
+    label: hidden
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+hidden:
+  langcode: true
+  links: true

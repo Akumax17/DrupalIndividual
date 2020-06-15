@@ -1,0 +1,27 @@
+uuid: f51eda50-9b45-4238-a015-42981ae75d51
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - startupgrowth_lite
+_core:
+  default_config_hash: LUPWtb-Kmr0sI5mQTGBF7u-UyS7b_UHpX9fSV5Il5Wc
+id: startupgrowth_lite_tools
+theme: startupgrowth_lite
+region: sidebar_first
+weight: -4
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

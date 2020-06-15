@@ -1,0 +1,34 @@
+uuid: f221df0a-d772-41a8-98c5-d6ea01e8fe4b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.idiomas.field_lenguaje
+    - field.field.paragraph.idiomas.field_nivel
+    - paragraphs.paragraphs_type.idiomas
+  module:
+    - text
+id: paragraph.idiomas.default
+targetEntityType: paragraph
+bundle: idiomas
+mode: default
+content:
+  field_lenguaje:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_nivel:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true

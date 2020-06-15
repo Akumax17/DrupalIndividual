@@ -1,0 +1,18 @@
+uuid: 638c191c-e2cd-4cd3-9df8-38879d66c0a3
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.personal
+id: node.personal.title
+field_name: title
+entity_type: node
+bundle: personal
+label: 'Nombre:'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

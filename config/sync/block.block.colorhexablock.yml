@@ -1,0 +1,21 @@
+uuid: fe2bb62e-1f9e-414b-87cd-c35ebda527ad
+langcode: es
+status: true
+dependencies:
+  module:
+    - colorhexa
+  theme:
+    - bartik
+id: colorhexablock
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: colorhexa_block
+settings:
+  id: colorhexa_block
+  label: 'Color Hexa block'
+  provider: colorhexa
+  label_display: visible
+  colorhexa_block_settings: null
+visibility: {  }

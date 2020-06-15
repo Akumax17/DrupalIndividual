@@ -1,0 +1,169 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/es\/node\/7?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/carrera"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/carrera\/revision_uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/carrera\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/carrera\/field_campus_en_que_se_imparte": [
+            {
+                "href": "http:\/\/default\/es\/taxonomy\/term\/5?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "e4398c48-0e50-46da-8169-b64b11b333bf"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es",
+            "lang": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "carrera"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-05-08T18:17:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/carrera\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "26df5462-8300-4f10-9a6c-7a1158d29622"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/carrera\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "26df5462-8300-4f10-9a6c-7a1158d29622"
+                    }
+                ],
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/carrera\/field_campus_en_que_se_imparte": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/es\/taxonomy\/term\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/campus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3237daa2-4b68-4e17-b15d-0f09e4527b86"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "title": [
+        {
+            "value": "Periodismo",
+            "lang": "es"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-08T18:17:31+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-08T18:17:31+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "es"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "es",
+            "lang": "es"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Descripci\u00f3n de carrera<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Descripci\u00f3n de carrera<\/p>",
+            "summary": "",
+            "lang": "es"
+        }
+    ]
+}

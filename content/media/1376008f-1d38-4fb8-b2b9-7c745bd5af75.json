@@ -1,0 +1,134 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/es\/media\/3\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/remote_video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/remote_video\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/remote_video\/thumbnail": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/oembed_thumbnails\/haK4HCVXKSWnM7CFMh-EdsLU5zNNsJn8zylT7czD4cE.jpg",
+                "lang": "es"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "1376008f-1d38-4fb8-b2b9-7c745bd5af75"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es",
+            "lang": "es"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "remote_video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-06-14T18:08:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/remote_video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "26df5462-8300-4f10-9a6c-7a1158d29622"
+                    }
+                ],
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/remote_video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/oembed_thumbnails\/haK4HCVXKSWnM7CFMh-EdsLU5zNNsJn8zylT7czD4cE.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dd68a1f4-fa1a-4007-a17a-43c2c6447263"
+                    }
+                ],
+                "lang": "es"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Made Up - Cap\u00edtulo 3: Deltruz",
+            "lang": "es"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-14T18:06:39+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-06-14T18:08:01+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "es",
+            "lang": "es"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/www.youtube.com\/watch?v=ZkugZt6n8Pc",
+            "lang": "es"
+        }
+    ]
+}

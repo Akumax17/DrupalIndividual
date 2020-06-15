@@ -1,0 +1,35 @@
+uuid: dcc4a779-45f6-44c3-a4bd-670a92c45cc9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.trabajos.body
+    - field.field.node.trabajos.field_media
+    - node.type.trabajos
+  module:
+    - text
+    - user
+id: node.trabajos.default
+targetEntityType: node
+bundle: trabajos
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_media:
+    type: entity_reference_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  links: true

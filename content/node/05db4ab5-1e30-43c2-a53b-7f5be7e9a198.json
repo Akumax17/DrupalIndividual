@@ -1,0 +1,169 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/es\/node\/11?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/trabajos"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/trabajos\/revision_uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/trabajos\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/trabajos\/field_media": [
+            {
+                "href": "http:\/\/default\/es\/media\/2\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "05db4ab5-1e30-43c2-a53b-7f5be7e9a198"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es",
+            "lang": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "trabajos"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-06-14T18:02:41+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/trabajos\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "26df5462-8300-4f10-9a6c-7a1158d29622"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/trabajos\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "26df5462-8300-4f10-9a6c-7a1158d29622"
+                    }
+                ],
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/trabajos\/field_media": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/es\/media\/2\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/remote_video"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "124d54e2-bd78-436a-a242-30fc6752dec5"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "title": [
+        {
+            "value": "Made Up - 1",
+            "lang": "es"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-14T18:00:56+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-06-14T18:02:41+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "es"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "es"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "es",
+            "lang": "es"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Animaci\u00f3n hecha en el 2019 como pasatiempo, para Clever Wolves.&nbsp;<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Animaci\u00f3n hecha en el 2019 como pasatiempo, para Clever Wolves.\u00a0<\/p>",
+            "summary": "",
+            "lang": "es"
+        }
+    ]
+}

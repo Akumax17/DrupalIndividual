@@ -1,0 +1,31 @@
+uuid: bdadb9a8-8600-49e6-a24c-b0c86deae518
+langcode: es
+status: true
+dependencies:
+  module:
+    - color_favorito
+    - node
+  theme:
+    - leon
+id: leon_bloquedeinformaciondelcolorfavorito
+theme: leon
+region: content
+weight: 0
+provider: null
+plugin: information_block
+settings:
+  id: information_block
+  label: 'Bloque de informacion del color favorito'
+  provider: color_favorito
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      carrera: carrera
+      curso: curso
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

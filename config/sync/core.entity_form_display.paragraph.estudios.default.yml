@@ -1,0 +1,40 @@
+uuid: 6e68364a-f131-4bea-9f89-07888394fc7e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.estudios.field_desdees
+    - field.field.paragraph.estudios.field_hastaes
+    - field.field.paragraph.estudios.field_nombren
+    - paragraphs.paragraphs_type.estudios
+  module:
+    - datetime
+    - text
+id: paragraph.estudios.default
+targetEntityType: paragraph
+bundle: estudios
+mode: default
+content:
+  field_desdees:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_hastaes:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_nombren:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true

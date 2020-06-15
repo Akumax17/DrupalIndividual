@@ -1,0 +1,20 @@
+uuid: 42f5a97c-5498-4b1c-9c4e-07c1aff29ba1
+langcode: es
+status: true
+dependencies:
+  module:
+    - datetime
+    - paragraphs
+id: paragraph.field_desde
+field_name: field_desde
+entity_type: paragraph
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

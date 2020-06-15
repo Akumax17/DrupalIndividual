@@ -1,0 +1,19 @@
+uuid: 1459800b-30d6-4676-8fbe-b33edbebb0a8
+langcode: es
+status: true
+dependencies:
+  config:
+    - contact.form.personal
+    - field.storage.contact_message.field_correo_electronico
+id: contact_message.personal.field_correo_electronico
+field_name: field_correo_electronico
+entity_type: contact_message
+bundle: personal
+label: 'Correo Electrónico'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

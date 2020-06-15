@@ -1,0 +1,10 @@
+uuid: ef49a99b-ece5-4e48-a32a-c87de5139d7d
+langcode: es
+status: true
+dependencies: {  }
+id: estudios
+label: Estudios
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

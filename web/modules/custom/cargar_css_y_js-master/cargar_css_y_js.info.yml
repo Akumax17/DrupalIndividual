@@ -1,0 +1,5 @@
+name: "Cargar CSS y JS"
+type: module
+description: "Cargar CSS y JS en nuestro modulo"
+core: 8.x
+package: "Custom"

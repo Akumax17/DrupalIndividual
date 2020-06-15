@@ -1,0 +1,40 @@
+uuid: 28c916d6-4cd4-4cd5-8211-65232ec9c8bc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.experiencia.field_desde
+    - field.field.paragraph.experiencia.field_empresa
+    - field.field.paragraph.experiencia.field_hasta
+    - paragraphs.paragraphs_type.experiencia
+  module:
+    - datetime
+    - text
+id: paragraph.experiencia.default
+targetEntityType: paragraph
+bundle: experiencia
+mode: default
+content:
+  field_desde:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_empresa:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_hasta:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+hidden:
+  created: true
+  status: true

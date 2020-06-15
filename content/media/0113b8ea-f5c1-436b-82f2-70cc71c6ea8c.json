@@ -1,0 +1,134 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/es\/media\/6\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/remote_video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/remote_video\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/remote_video\/thumbnail": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/oembed_thumbnails\/w74sCIyL1HJiUEnc1slF-NQLXh4dYk_atW67c3G4ELA.jpg",
+                "lang": "es"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "0113b8ea-f5c1-436b-82f2-70cc71c6ea8c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es",
+            "lang": "es"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "remote_video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-06-14T18:09:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/remote_video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "26df5462-8300-4f10-9a6c-7a1158d29622"
+                    }
+                ],
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/remote_video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/oembed_thumbnails\/w74sCIyL1HJiUEnc1slF-NQLXh4dYk_atW67c3G4ELA.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "88c0cf50-78d1-45ce-8592-1479387939fd"
+                    }
+                ],
+                "lang": "es"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Clever Wolves - Cortos # 01 \"Color\"",
+            "lang": "es"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-14T18:09:48+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-06-14T18:09:55+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "es",
+            "lang": "es"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/www.youtube.com\/watch?v=Sxhmw2jD8mY",
+            "lang": "es"
+        }
+    ]
+}

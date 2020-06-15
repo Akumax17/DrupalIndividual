@@ -1,0 +1,352 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/es\/node\/8?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/personal"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/personal\/revision_uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/personal\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/personal\/field_estudios": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/personal\/field_experiencia": [
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/personal\/field_lenguajes": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "2e699325-d114-4564-860c-434adbfda39e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es",
+            "lang": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "personal"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-06-14T01:13:52+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/personal\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "26df5462-8300-4f10-9a6c-7a1158d29622"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/personal\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "26df5462-8300-4f10-9a6c-7a1158d29622"
+                    }
+                ],
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/personal\/field_estudios": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/estudios"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "46baf608-36d7-4c3c-874b-624d6f2dc4cc"
+                    }
+                ],
+                "target_revision_id": "1"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/estudios"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "90b46781-34e4-44de-b5bc-7f324562c72a"
+                    }
+                ],
+                "target_revision_id": "2"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/estudios"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b97804fe-fb14-4edc-84a7-1a4c37768c05"
+                    }
+                ],
+                "target_revision_id": "3"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/estudios"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4a697543-1091-4440-8132-a13a087b58c7"
+                    }
+                ],
+                "target_revision_id": "4"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/estudios"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "366ebc88-0c26-47bc-9dbd-bf2f89e77698"
+                    }
+                ],
+                "target_revision_id": "5"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/estudios"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d2a2ee01-bbd2-41ae-9508-d3333523e6a9"
+                    }
+                ],
+                "target_revision_id": "6"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/personal\/field_experiencia": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/experiencia"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "89b1e26c-6e06-45bf-9947-9c21a74683dd"
+                    }
+                ],
+                "target_revision_id": "7"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/personal\/field_lenguajes": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/idiomas"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7cddacd8-8dac-4fe9-8f37-a2fe2b232376"
+                    }
+                ],
+                "target_revision_id": "8"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/idiomas"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "24a5a493-1a0a-4cef-985f-110da262aa67"
+                    }
+                ],
+                "target_revision_id": "9"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/idiomas"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1e3f202f-0dde-420b-8770-6547eac5f33c"
+                    }
+                ],
+                "target_revision_id": "10"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "title": [
+        {
+            "value": "Max L\u00f3pez Chac\u00f3n",
+            "lang": "es"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-14T01:13:01+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-06-14T01:18:25+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "es"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "es",
+            "lang": "es"
+        }
+    ],
+    "field_localidad_": [
+        {
+            "value": "Heredia",
+            "format": "basic_html",
+            "processed": "Heredia"
+        }
+    ],
+    "field_nacimiento": [
+        {
+            "value": "1993-05-17"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+uuid: 742838b6-edec-4117-9001-5f4fc3d8140a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - startupgrowth_lite
+_core:
+  default_config_hash: Y3vA-FHR0Ew7pBDZycWH4cD7J0FJyt_08yo9OUBRvcA
+id: startupgrowth_lite_messages
+theme: startupgrowth_lite
+region: system_messages
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

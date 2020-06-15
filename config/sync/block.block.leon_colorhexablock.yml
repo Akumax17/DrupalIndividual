@@ -1,0 +1,21 @@
+uuid: b9c76e0c-67ef-44db-9466-8cf19ddb0d4b
+langcode: es
+status: true
+dependencies:
+  module:
+    - colorhexa
+  theme:
+    - leon
+id: leon_colorhexablock
+theme: leon
+region: content
+weight: 0
+provider: null
+plugin: colorhexa_block
+settings:
+  id: colorhexa_block
+  label: 'Color Hexa block'
+  provider: colorhexa
+  label_display: visible
+  colorhexa_block_settings: null
+visibility: {  }

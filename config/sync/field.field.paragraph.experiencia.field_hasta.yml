@@ -1,0 +1,21 @@
+uuid: 847d76b9-4501-482e-99ae-02b671571848
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hasta
+    - paragraphs.paragraphs_type.experiencia
+  module:
+    - datetime
+id: paragraph.experiencia.field_hasta
+field_name: field_hasta
+entity_type: paragraph
+bundle: experiencia
+label: Hasta
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

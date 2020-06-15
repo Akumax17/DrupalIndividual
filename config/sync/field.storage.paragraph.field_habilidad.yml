@@ -1,0 +1,21 @@
+uuid: adf2d2c5-b691-4a5c-bc4e-06a510afce6e
+langcode: es
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_habilidad
+field_name: field_habilidad
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

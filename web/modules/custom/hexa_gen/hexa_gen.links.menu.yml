@@ -1,0 +1,6 @@
+hexa_gen:
+  title: "Agregar color hexadecimal"
+  route_name: hexa_gen_configuration_form
+  description: "Configuracion del módulo de color hexadecimal"
+  parent: system.admin_config_system
+  weight: 99

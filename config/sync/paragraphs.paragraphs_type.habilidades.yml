@@ -1,0 +1,10 @@
+uuid: 4dc30c60-80a1-4619-9dc4-0d91ccd238cc
+langcode: es
+status: true
+dependencies: {  }
+id: habilidades
+label: Habilidades
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

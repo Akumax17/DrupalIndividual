@@ -1,0 +1,88 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/experiencia"
+        }
+    },
+    "uuid": [
+        {
+            "value": "89b1e26c-6e06-45bf-9947-9c21a74683dd"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es",
+            "lang": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "experiencia"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-14T01:13:52+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "8"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_experiencia"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "field_desde": [
+        {
+            "value": "2019-08-01"
+        }
+    ],
+    "field_empresa": [
+        {
+            "value": "Are You Higher",
+            "format": "basic_html",
+            "processed": "Are You Higher"
+        }
+    ],
+    "field_hasta": [
+        {
+            "value": "2020-05-31"
+        }
+    ]
+}

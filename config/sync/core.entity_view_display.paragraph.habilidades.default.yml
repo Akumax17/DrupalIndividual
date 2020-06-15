@@ -1,0 +1,31 @@
+uuid: b2d301b6-9bd1-4777-ab16-100aeb735d74
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.habilidades.field_descripcion
+    - field.field.paragraph.habilidades.field_habilidad
+    - paragraphs.paragraphs_type.habilidades
+  module:
+    - options
+    - text
+id: paragraph.habilidades.default
+targetEntityType: paragraph
+bundle: habilidades
+mode: default
+content:
+  field_descripcion:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_habilidad:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden: {  }

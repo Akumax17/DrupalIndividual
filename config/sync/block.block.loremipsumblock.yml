@@ -1,0 +1,32 @@
+uuid: d8893c21-442e-4af6-a9b0-6ff66bcb55f2
+langcode: es
+status: true
+dependencies:
+  module:
+    - loremipsum
+    - node
+  theme:
+    - bartik
+id: loremipsumblock
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: loremipsum_block
+settings:
+  id: loremipsum_block
+  label: 'Lorem ipsum block'
+  provider: loremipsum
+  label_display: visible
+  loremipsum_block_settings: null
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      carrera: carrera
+      curso: curso
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

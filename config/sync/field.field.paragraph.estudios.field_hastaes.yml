@@ -1,0 +1,21 @@
+uuid: d20330ee-17c6-4fdf-b913-b15068b9a790
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hastaes
+    - paragraphs.paragraphs_type.estudios
+  module:
+    - datetime
+id: paragraph.estudios.field_hastaes
+field_name: field_hastaes
+entity_type: paragraph
+bundle: estudios
+label: Hasta
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

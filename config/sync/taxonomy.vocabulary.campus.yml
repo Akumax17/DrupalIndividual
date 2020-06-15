@@ -1,0 +1,8 @@
+uuid: 6c8b3a51-0843-413f-b4a1-fc7a7ec3e256
+langcode: en
+status: true
+dependencies: {  }
+name: Campus
+vid: campus
+description: 'Descripción del vocabulario Campus '
+weight: 0

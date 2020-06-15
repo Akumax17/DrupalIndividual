@@ -1,0 +1,21 @@
+uuid: dae5f714-e2ef-4682-af6d-f34423f55226
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nacimiento
+    - node.type.personal
+  module:
+    - datetime
+id: node.personal.field_nacimiento
+field_name: field_nacimiento
+entity_type: node
+bundle: personal
+label: Nacimiento
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

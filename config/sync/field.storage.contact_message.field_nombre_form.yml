@@ -1,0 +1,20 @@
+uuid: 1c980141-57d8-4b33-bad5-19189230adf8
+langcode: es
+status: true
+dependencies:
+  module:
+    - contact
+    - text
+id: contact_message.field_nombre_form
+field_name: field_nombre_form
+entity_type: contact_message
+type: text
+settings:
+  max_length: 100
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,27 @@
+uuid: 8ce192ce-a919-43af-8931-6d25f6dc4f8a
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - startupgrowth_lite
+_core:
+  default_config_hash: 4dvazvqTK2mI5qkyX-6CTt0539HxI59Nhb_pbyGnCMo
+id: startupgrowth_lite_account_menu
+theme: startupgrowth_lite
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

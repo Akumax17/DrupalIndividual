@@ -1,0 +1,21 @@
+uuid: 43df23e1-ef64-44b6-b5ab-54d9be35f031
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_desde
+    - paragraphs.paragraphs_type.experiencia
+  module:
+    - datetime
+id: paragraph.experiencia.field_desde
+field_name: field_desde
+entity_type: paragraph
+bundle: experiencia
+label: Desde
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,43 @@
+uuid: 803e7e9f-ccf1-466b-af24-4b1fdbd32bc0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.estudios.field_desdees
+    - field.field.paragraph.estudios.field_hastaes
+    - field.field.paragraph.estudios.field_nombren
+    - paragraphs.paragraphs_type.estudios
+  module:
+    - datetime
+    - text
+id: paragraph.estudios.default
+targetEntityType: paragraph
+bundle: estudios
+mode: default
+content:
+  field_desdees:
+    weight: 1
+    label: inline
+    settings:
+      timezone_override: ''
+      date_format: 'Y'
+    third_party_settings: {  }
+    type: datetime_custom
+    region: content
+  field_hastaes:
+    weight: 2
+    label: inline
+    settings:
+      timezone_override: ''
+      date_format: 'Y'
+    third_party_settings: {  }
+    type: datetime_custom
+    region: content
+  field_nombren:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: bf2bb9b6-e4f8-45b1-8d9c-af038a505d8e
+langcode: es
+status: true
+dependencies:
+  config:
+    - contact.form.personal
+    - field.storage.contact_message.field_descripcion
+  module:
+    - options
+id: contact_message.personal.field_descripcion
+field_name: field_descripcion
+entity_type: contact_message
+bundle: personal
+label: Descripción
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

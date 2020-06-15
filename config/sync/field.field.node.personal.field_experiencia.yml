@@ -1,0 +1,37 @@
+uuid: 2e75944a-38ea-4da8-93a8-0b1b79da213a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_experiencia
+    - node.type.personal
+    - paragraphs.paragraphs_type.experiencia
+  module:
+    - entity_reference_revisions
+id: node.personal.field_experiencia
+field_name: field_experiencia
+entity_type: node
+bundle: personal
+label: Experiencia
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      experiencia: experiencia
+    target_bundles_drag_drop:
+      estudios:
+        weight: 4
+        enabled: false
+      experiencia:
+        enabled: true
+        weight: 5
+      idiomas:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,21 @@
+uuid: 7da2b9c6-48f3-45a3-865d-45ead3d9a19f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lenguaje
+    - paragraphs.paragraphs_type.idiomas
+  module:
+    - text
+id: paragraph.idiomas.field_lenguaje
+field_name: field_lenguaje
+entity_type: paragraph
+bundle: idiomas
+label: Lenguaje
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

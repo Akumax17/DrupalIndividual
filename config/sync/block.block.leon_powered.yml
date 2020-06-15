@@ -1,0 +1,22 @@
+uuid: becc4a96-5b30-49a8-8512-4ddabc3dbbdb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - leon
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: leon_powered
+theme: leon
+region: content
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

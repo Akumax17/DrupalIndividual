@@ -1,0 +1,88 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/estudios"
+        }
+    },
+    "uuid": [
+        {
+            "value": "4a697543-1091-4440-8132-a13a087b58c7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es",
+            "lang": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "estudios"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-14T01:16:47+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "8"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_estudios"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "field_desdees": [
+        {
+            "value": "2012-01-01"
+        }
+    ],
+    "field_hastaes": [
+        {
+            "value": "2012-12-31"
+        }
+    ],
+    "field_nombren": [
+        {
+            "value": "Universidad Hispanoamericana",
+            "format": "basic_html",
+            "processed": "Universidad Hispanoamericana"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+uuid: f29e52ae-11b7-4947-be41-c26f0cec605a
+langcode: es
+status: true
+dependencies:
+  config:
+    - contact.form.personal
+    - field.storage.contact_message.field_nombre_form
+  module:
+    - text
+id: contact_message.personal.field_nombre_form
+field_name: field_nombre_form
+entity_type: contact_message
+bundle: personal
+label: Nombre
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

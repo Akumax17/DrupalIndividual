@@ -1,0 +1,10 @@
+uuid: 0f65f98e-4ef5-430a-8da2-e0cdbd297e72
+langcode: es
+status: true
+dependencies: {  }
+id: contacto
+label: Contacto
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,10 @@
+uuid: 95d82dd2-0c7e-4e93-8775-d7669cf75686
+langcode: es
+status: true
+dependencies: {  }
+id: idiomas
+label: Idiomas
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

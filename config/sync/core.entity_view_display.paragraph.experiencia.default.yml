@@ -1,0 +1,43 @@
+uuid: af79a3d9-5645-406e-8270-6b932bdc3447
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.experiencia.field_desde
+    - field.field.paragraph.experiencia.field_empresa
+    - field.field.paragraph.experiencia.field_hasta
+    - paragraphs.paragraphs_type.experiencia
+  module:
+    - datetime
+    - text
+id: paragraph.experiencia.default
+targetEntityType: paragraph
+bundle: experiencia
+mode: default
+content:
+  field_desde:
+    weight: 1
+    label: inline
+    settings:
+      timezone_override: ''
+      date_format: Y-m
+    third_party_settings: {  }
+    type: datetime_custom
+    region: content
+  field_empresa:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_hasta:
+    weight: 2
+    label: inline
+    settings:
+      timezone_override: ''
+      date_format: Y-m
+    third_party_settings: {  }
+    type: datetime_custom
+    region: content
+hidden: {  }

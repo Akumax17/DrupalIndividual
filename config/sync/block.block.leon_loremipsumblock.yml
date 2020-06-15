@@ -1,0 +1,32 @@
+uuid: f4a1a037-17c5-4c2e-9bb3-79976d9d4be2
+langcode: es
+status: true
+dependencies:
+  module:
+    - loremipsum
+    - node
+  theme:
+    - leon
+id: leon_loremipsumblock
+theme: leon
+region: content
+weight: 0
+provider: null
+plugin: loremipsum_block
+settings:
+  id: loremipsum_block
+  label: 'Lorem ipsum block'
+  provider: loremipsum
+  label_display: visible
+  loremipsum_block_settings: null
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      carrera: carrera
+      curso: curso
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

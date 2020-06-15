@@ -1,0 +1,43 @@
+uuid: f23a1d1c-92fe-4263-834b-b187bb8ae9b9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_correo_electronico
+    - node.type.contacto
+    - paragraphs.paragraphs_type.contacto
+  module:
+    - entity_reference_revisions
+id: node.contacto.field_correo_electronico
+field_name: field_correo_electronico
+entity_type: node
+bundle: contacto
+label: Contacto
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      contacto: contacto
+    target_bundles_drag_drop:
+      contacto:
+        enabled: true
+        weight: 6
+      estudios:
+        weight: 7
+        enabled: false
+      experiencia:
+        weight: 8
+        enabled: false
+      habilidades:
+        weight: 9
+        enabled: false
+      idiomas:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

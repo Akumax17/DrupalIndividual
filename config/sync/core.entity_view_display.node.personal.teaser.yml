@@ -1,0 +1,31 @@
+uuid: 45d131d4-f068-4f62-98aa-05e00e45174a
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.personal.field_estudios
+    - field.field.node.personal.field_experiencia
+    - field.field.node.personal.field_lenguajes
+    - field.field.node.personal.field_localidad_
+    - field.field.node.personal.field_nacimiento
+    - node.type.personal
+  module:
+    - user
+id: node.personal.teaser
+targetEntityType: node
+bundle: personal
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_estudios: true
+  field_experiencia: true
+  field_lenguajes: true
+  field_localidad_: true
+  field_nacimiento: true
+  langcode: true

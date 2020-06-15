@@ -1,0 +1,22 @@
+uuid: 7a3e49bb-eee0-4afc-8cbf-0ddb43b401bc
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.habilidades
+id: node.habilidades.promote
+field_name: promote
+entity_type: node
+bundle: habilidades
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

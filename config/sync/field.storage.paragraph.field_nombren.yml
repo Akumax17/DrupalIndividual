@@ -1,0 +1,20 @@
+uuid: 0ecce633-1b5c-487f-ae5b-6c48901e1888
+langcode: es
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_nombren
+field_name: field_nombren
+entity_type: paragraph
+type: text
+settings:
+  max_length: 100
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,37 @@
+uuid: 5a081ba5-7b4e-402e-ac09-f56adcea8ae6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lenguajes
+    - node.type.personal
+    - paragraphs.paragraphs_type.idiomas
+  module:
+    - entity_reference_revisions
+id: node.personal.field_lenguajes
+field_name: field_lenguajes
+entity_type: node
+bundle: personal
+label: Lenguajes
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      idiomas: idiomas
+    target_bundles_drag_drop:
+      estudios:
+        weight: 4
+        enabled: false
+      experiencia:
+        weight: 5
+        enabled: false
+      idiomas:
+        enabled: true
+        weight: 6
+field_type: entity_reference_revisions

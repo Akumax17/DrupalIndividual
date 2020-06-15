@@ -1,0 +1,21 @@
+uuid: f26e1517-2cae-406f-9030-d3a9d3ee286f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_habilidad
+    - paragraphs.paragraphs_type.habilidades
+  module:
+    - options
+id: paragraph.habilidades.field_habilidad
+field_name: field_habilidad
+entity_type: paragraph
+bundle: habilidades
+label: Habilidad
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

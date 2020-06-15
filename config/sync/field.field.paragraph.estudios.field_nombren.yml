@@ -1,0 +1,21 @@
+uuid: 1d25d646-dfb7-4a7d-8602-308380789f70
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nombren
+    - paragraphs.paragraphs_type.estudios
+  module:
+    - text
+id: paragraph.estudios.field_nombren
+field_name: field_nombren
+entity_type: paragraph
+bundle: estudios
+label: Nombren
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

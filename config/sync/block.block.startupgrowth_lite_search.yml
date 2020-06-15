@@ -1,0 +1,23 @@
+uuid: 632c0385-3d26-42d8-9d3d-51a17be5235f
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - startupgrowth_lite
+_core:
+  default_config_hash: rWg4ejqKle0pIU6bEZ03P2oOnW75KO7BUJGVw_kcBXY
+id: startupgrowth_lite_search
+theme: startupgrowth_lite
+region: search_area
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

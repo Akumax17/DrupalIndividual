@@ -1,0 +1,34 @@
+uuid: d85a7e4e-986b-48c0-8a91-4adb2e171140
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.contacto.field_correoe
+    - field.field.paragraph.contacto.field_telefono
+    - paragraphs.paragraphs_type.contacto
+  module:
+    - text
+id: paragraph.contacto.default
+targetEntityType: paragraph
+bundle: contacto
+mode: default
+content:
+  field_correoe:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_telefono:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true

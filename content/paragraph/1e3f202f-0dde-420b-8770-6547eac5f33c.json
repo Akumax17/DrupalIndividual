@@ -1,0 +1,85 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/idiomas"
+        }
+    },
+    "uuid": [
+        {
+            "value": "1e3f202f-0dde-420b-8770-6547eac5f33c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es",
+            "lang": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "idiomas"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-14T01:14:05+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "8"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_lenguajes"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "field_lenguaje": [
+        {
+            "value": "Japon\u00e9s",
+            "format": "basic_html",
+            "processed": "Japon\u00e9s"
+        }
+    ],
+    "field_nivel": [
+        {
+            "value": "Avanzado",
+            "format": "basic_html",
+            "processed": "Avanzado"
+        }
+    ]
+}

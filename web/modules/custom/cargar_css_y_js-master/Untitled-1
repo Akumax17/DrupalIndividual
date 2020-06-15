@@ -1,0 +1,9 @@
+
+Pasos:
+
+	1. Generar el módulo
+	 	- ddev exec drupal gm
+	2. Generar un controlador
+	 	- ddev exec drupal gcon 
+	3. Crear el archivo nombremodulo.libraries.yml
+	4. Crear los archivos css y js que se desea utilizar

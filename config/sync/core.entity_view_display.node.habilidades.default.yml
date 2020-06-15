@@ -1,0 +1,27 @@
+uuid: 1ef65c63-f659-43f8-8be8-e05e1114c3b8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.habilidades.field_habilidad
+    - node.type.habilidades
+  module:
+    - entity_reference_revisions
+    - user
+id: node.habilidades.default
+targetEntityType: node
+bundle: habilidades
+mode: default
+content:
+  field_habilidad:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  links: true

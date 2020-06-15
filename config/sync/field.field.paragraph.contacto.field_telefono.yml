@@ -1,0 +1,21 @@
+uuid: 620350fa-8ada-4d74-a96e-3568a2c5168d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_telefono
+    - paragraphs.paragraphs_type.contacto
+  module:
+    - text
+id: paragraph.contacto.field_telefono
+field_name: field_telefono
+entity_type: paragraph
+bundle: contacto
+label: Telefono
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

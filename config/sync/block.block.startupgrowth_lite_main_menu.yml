@@ -1,0 +1,27 @@
+uuid: 867133bd-1183-4cc2-8f9c-240a49280ca2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - startupgrowth_lite
+_core:
+  default_config_hash: bBoNHaVRicNe2WWRHVWph-YiuyQSs7riowoSYAIBFY4
+id: startupgrowth_lite_main_menu
+theme: startupgrowth_lite
+region: navigation
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

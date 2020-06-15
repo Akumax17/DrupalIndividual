@@ -1,0 +1,37 @@
+uuid: 95e9429b-9dc4-4adb-9df3-e875cd5f1711
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_estudios
+    - node.type.personal
+    - paragraphs.paragraphs_type.estudios
+  module:
+    - entity_reference_revisions
+id: node.personal.field_estudios
+field_name: field_estudios
+entity_type: node
+bundle: personal
+label: Estudios
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      estudios: estudios
+    target_bundles_drag_drop:
+      estudios:
+        enabled: true
+        weight: 4
+      experiencia:
+        weight: 5
+        enabled: false
+      idiomas:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

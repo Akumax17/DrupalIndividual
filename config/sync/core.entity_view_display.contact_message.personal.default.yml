@@ -1,0 +1,40 @@
+uuid: 0597fc4e-1a2e-48f5-821b-b52efb0b1630
+langcode: es
+status: true
+dependencies:
+  config:
+    - contact.form.personal
+    - field.field.contact_message.personal.field_correo_electronico
+    - field.field.contact_message.personal.field_descripcion
+    - field.field.contact_message.personal.field_nombre_form
+  module:
+    - text
+id: contact_message.personal.default
+targetEntityType: contact_message
+bundle: personal
+mode: default
+content:
+  field_correo_electronico:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_nombre_form:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  message:
+    type: basic_string
+    weight: 2
+    label: above
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_descripcion: true
+  langcode: true

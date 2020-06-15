@@ -1,0 +1,32 @@
+uuid: 6ff5159c-6fbc-4de7-8b6e-b05c4232aed0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.habilidades.field_descripcion
+    - field.field.paragraph.habilidades.field_habilidad
+    - paragraphs.paragraphs_type.habilidades
+  module:
+    - text
+id: paragraph.habilidades.default
+targetEntityType: paragraph
+bundle: habilidades
+mode: default
+content:
+  field_descripcion:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_habilidad:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true

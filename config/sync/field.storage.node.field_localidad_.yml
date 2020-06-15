@@ -1,0 +1,20 @@
+uuid: 138dc3f9-27c4-4b53-a2bd-a961d1e4be48
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_localidad_
+field_name: field_localidad_
+entity_type: node
+type: text
+settings:
+  max_length: 100
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

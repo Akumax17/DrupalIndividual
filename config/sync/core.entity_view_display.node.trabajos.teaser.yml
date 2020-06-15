@@ -1,0 +1,29 @@
+uuid: dc6cf343-dfd5-44e5-9b5d-9c67d5e245a7
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.trabajos.body
+    - field.field.node.trabajos.field_media
+    - node.type.trabajos
+  module:
+    - user
+id: node.trabajos.teaser
+targetEntityType: node
+bundle: trabajos
+mode: teaser
+content:
+  field_media:
+    type: entity_reference_entity_view
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+hidden:
+  body: true
+  langcode: true
+  links: true

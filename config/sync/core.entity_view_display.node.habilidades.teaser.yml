@@ -1,0 +1,23 @@
+uuid: 34fdb97a-7d83-485d-a478-74ac14b46ad5
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.habilidades.field_habilidad
+    - node.type.habilidades
+  module:
+    - user
+id: node.habilidades.teaser
+targetEntityType: node
+bundle: habilidades
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_habilidad: true
+  langcode: true

@@ -1,0 +1,3 @@
+access hexa_gen configuration:
+  title: "Permiso para acceder al formulario de generador hexadecimal"
+  description: "Cambiar color al puesto en el generador hexadeciaml"

@@ -1,0 +1,21 @@
+uuid: da4960d6-d11d-4697-acc4-a3e86478b59c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_descripcion
+    - paragraphs.paragraphs_type.habilidades
+  module:
+    - text
+id: paragraph.habilidades.field_descripcion
+field_name: field_descripcion
+entity_type: paragraph
+bundle: habilidades
+label: Descripcion
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

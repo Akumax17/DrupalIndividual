@@ -1,0 +1,17 @@
+uuid: b23732ed-5f81-49e1-9c1a-1f63a8f51128
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Personal
+type: personal
+description: 'Contenido para la información personal'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,21 @@
+uuid: 141b99d9-4633-4092-b55d-b97ea171f39e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nivel
+    - paragraphs.paragraphs_type.idiomas
+  module:
+    - text
+id: paragraph.idiomas.field_nivel
+field_name: field_nivel
+entity_type: paragraph
+bundle: idiomas
+label: 'Nivel:'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

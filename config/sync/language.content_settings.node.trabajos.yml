@@ -1,0 +1,11 @@
+uuid: 3ef647db-0b96-4cba-b25d-2009dd347a05
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.trabajos
+id: node.trabajos
+target_entity_type_id: node
+target_bundle: trabajos
+default_langcode: site_default
+language_alterable: false

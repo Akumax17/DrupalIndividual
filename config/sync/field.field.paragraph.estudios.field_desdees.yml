@@ -1,0 +1,21 @@
+uuid: f5cc681b-9151-4245-98d2-e9e7bdda011a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_desdees
+    - paragraphs.paragraphs_type.estudios
+  module:
+    - datetime
+id: paragraph.estudios.field_desdees
+field_name: field_desdees
+entity_type: paragraph
+bundle: estudios
+label: Desde
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

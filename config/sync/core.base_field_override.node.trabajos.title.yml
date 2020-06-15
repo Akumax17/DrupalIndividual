@@ -1,0 +1,18 @@
+uuid: 852829ad-d988-4510-83d0-ec5b913ab28b
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.trabajos
+id: node.trabajos.title
+field_name: title
+entity_type: node
+bundle: trabajos
+label: Trabajos
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

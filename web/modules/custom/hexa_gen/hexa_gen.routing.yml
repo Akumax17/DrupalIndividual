@@ -1,0 +1,17 @@
+hexa_gen.hexa_gen_controller:
+  path: "/hexa-gen/{}"
+  defaults:
+    _controller: '\Drupal\hexa_gen\Controller\HexaGenController::index'
+    _title: "Hexadecimal Color"  
+  requirements: 
+      _permission: "access content"
+
+hexa_gen_configuration_form:
+  path: '/admin/config/hexa_gen/configuration' 
+  defaults:
+    _form: '\Drupal\hexa_gen\Form\ConfigurationForm'
+    _title: "Formulario de configuración"
+  requirements:
+    _permission: "access hexa_gen configuration"
+  options:
+    _admin_route: true
